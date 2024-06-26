@@ -1,0 +1,9 @@
+body  {
+    border: solid ;
+}
+div {
+    border-color: aqua;
+    padding: 10px;
+    background: rebeccapurple;
+    border: solid;
+}
