@@ -7,7 +7,11 @@
 body{
     background: #000;
     color: #fff;
+    text-align: center;
 
+}
+h1{
+    text-align: center;
 }
 .section{
     background: #1E1A13;
@@ -20,18 +24,39 @@ footer{
 }
 article{
     width: 100%;
-
+    text-align: justify;
+    align-self: center;
+    display: inline;
+}
+article div{
+    margin: 0px 30px;
+}
+article div p{
+    text-align: left;
 }
 .a{
-    display: inline-block;
     width: 45%;
+}    
 
-}
 .b {
-    display: inline-block;
+
     width: 45%;
-    
 }
+h2{
+    padding-bottom: 20;
+}
+
+.cambiardisplay{ 
+    display: inline-block;
+}
+
+.vertical{
+    vertical-align:middle;
+}
+
 img{
     width: 100%;
+}
+i{
+    color: aqua;
 }
