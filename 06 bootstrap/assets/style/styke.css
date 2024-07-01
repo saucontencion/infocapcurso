@@ -4,3 +4,17 @@
 nav div a img{
     width: 6rem;
 }
+article div h1{
+    color: #707070;
+}
+
+@media(max-width: 576px){
+    .anchoCentrarpequenio {
+        width: 18rem;
+    }
+}
+section{
+    background: #17A2B8 !important;
+    color:#fff ;
+    font-size:5rem;
+}
