@@ -18,3 +18,9 @@ section{
     color:#fff ;
     font-size:5rem;
 }
+footer{
+    background-color: #E83E8C;
+}
+footer div{
+    width: 3rem;
+}
