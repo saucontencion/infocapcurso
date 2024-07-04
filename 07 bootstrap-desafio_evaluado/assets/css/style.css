@@ -27,7 +27,7 @@
     
 }
 
-.bg-body-nav{
+.bg-nav{
     background: var(--success) !important;
     color: var(--light) !important;
   }
