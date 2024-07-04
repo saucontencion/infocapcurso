@@ -2,11 +2,13 @@
     font-family: "Roboto", sans-serif;
     font-weight: 300 !important;
     font-style: normal;
+    font-size: 1rem;
   }
 .roboto-medium {
     font-family: "Roboto", sans-serif;
     font-weight: 500 !important;
     font-style: normal;
+    font-size: 1.3rem;
 }
 :root {
     --dark: #212529;
@@ -26,12 +28,16 @@
     }
     
 }
+<<<<<<< HEAD
 
 .bg-nav{
+=======
+.bg{
+>>>>>>> 0f35a477b857712b1aba99972914d4dd8cdc6a98
     background: var(--success) !important;
     color: var(--light) !important;
   }
-.a-succes{
+.succes{
     color: var(--success);  
 }
 .dark{
@@ -42,4 +48,20 @@
 }
 .rem{
     font-size: 1.3rem;
+}
+.f-s{
+    font-size: 0.8rem;
+}
+.h5-sn{
+    font-weight: 300;
+}
+
+@media (max-width:576px) {
+    .anchocentrado {
+        width: 18rem;
+    }
+}
+
+footer div img{
+    width: 8rem;
 }
