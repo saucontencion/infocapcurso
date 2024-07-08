@@ -1,0 +1,57 @@
+nav div a img p {
+    width: 2rem;
+    color: white;
+
+}
+
+
+
+/* tituklo logo */
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+nav {
+    background-color: #373A3C;
+
+}
+
+p {
+    color:white;
+    font-family: lobster;
+    width: 6rem;
+    text-align: left;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+@media (max-width: 568px){
+    nav div a img{
+        width: 6rem;
+    }
+}
+
+@media (min-width: 569px){
+    nav div a img{
+        width: 8rem;
+    }
+}
+
+@media(max-width: 576px){
+    .anchoTarjeta{
+        width: 18rem;
+    }
+}
+/* carruseell */
+.carousel-indicators{
+    position: static;
+}
+
+.btn-round{
+    height: 20px;
+}
+

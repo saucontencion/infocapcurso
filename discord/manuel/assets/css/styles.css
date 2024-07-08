@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&display=swap');
+
+
+nav{
+    background-color: #373A3C;
+} 
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.txtTituloComida{
+    font-family:"Cabin", sans-serif;
+    color: #373A3C;
+    font-weight: 700;
+    font-size: 2.5rem;
+
+}
+.txtPorcion{
+    font-family:"Cabin", sans-serif;
+    color: #373A3C;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bd-black-bg);
+    --bs-tooltip-color: var(--bs-white);
+}
+hr{
+    height: 0.2rem;
+    border: 0px solid #000000;
+    background-color: #000000;
+    color:#000000;
+    opacity: 1;
+}
+
+/* carrusel */
+.carousel-indicators {
+    bottom: -80px; /* Ajusta la posición vertical según necesites */
+    display: flex;
+    justify-content: center; 
+    position: absolute;
+  }
+  .carousel-indicators .btn {
+    background: none;
+    border: none;
+  }
+.buttonCircle i{
+    width: 1rem;
+}
+.carousel-indicators .colorCircle {
+    font-size: 20px; /* Tamaño del ícono */
+    color: #373A3C31; /* Color y opacidad de los indicadores no activos */
+  }
+  .carousel-indicators .btn.active .colorCircle {
+    color: #373A3C; /* Color del indicador activo */
+  }
+
+
+/* info */
+.txtInfoComida{
+    font-family:"Cabin", sans-serif;
+    color: #373A3C;
+    font-size: 1.5rem;
+}
+ul{
+    list-style-type: none; /* Elimina los números de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+}
+
+
+/* receta */
+.marginBottom{
+    margin-bottom: 3rem;
+}
+.card-title {
+    position: relative;
+    z-index: 10;
+    background: white;
+    display: inline-block;
+}
+
+/* NS */
+.fondoNS{
+    background-color: #DC3545;
+    font-family:"Cabin", sans-serif;
+    color: #373A3C;
+}
+#txtNS{
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: white;
+}
+.fondoNS div p{
+    color: white;
+    font-size: 1.9rem;
+}
+.txtNombreNS{
+    font-family: "Lobster", sans-serif;
+}
+
+
+/* footer */
+footer{
+    background-color: #373A3C;
+}
+footer h2{
+    color:white;
+}

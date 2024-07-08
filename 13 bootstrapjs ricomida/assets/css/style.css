@@ -1,0 +1,12 @@
+main div {
+    width: 24rem;
+}
+hr {
+    width: 28rem;
+    color: black;
+    font-size: medium;
+    font-weight: 400;
+    border: 1px solid #000;
+}
+
+/* pasarlo todo a grilla pa que sea mas responsvo */

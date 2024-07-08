@@ -28,12 +28,7 @@
     }
     
 }
-<<<<<<< HEAD
-
-.bg-nav{
-=======
 .bg{
->>>>>>> 0f35a477b857712b1aba99972914d4dd8cdc6a98
     background: var(--success) !important;
     color: var(--light) !important;
   }
