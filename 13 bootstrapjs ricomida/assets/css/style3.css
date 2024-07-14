@@ -1,50 +1,49 @@
-/* alinear all content */
-@media(max-width:576px) {
-    .padd-nav{
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-    .marg-cont{
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
+/* Fonts*/
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400 !important;
+    font-style: normal;
 }
-@media(min-width:577px) {
-    .padd-nav{
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
-    .marg-cont{
-        margin-left: 4rem;
-        margin-right: 4rem;
-    }
+
+.cabin-condensed-regular {
+    font-family: "Cabin Condensed", sans-serif;
+    font-weight: 400 !important;
+    font-style: normal;
+}  
+
+.cabin-condensed-bold {
+    font-family: "Cabin Condensed", sans-serif;
+    font-weight: 700 !important;
+    font-style: normal;
 }
-@media(min-width:768px) {
-    .padd-nav{
-        padding-left: 8rem;
-        padding-right: 8rem;
-    }
-    .marg-cont{
-        margin-left: 8rem;
-        margin-right: 8rem;
+/* darle letras blancas a los elementos nav-link en nav */
+.nav-link{
+    color: var(--bs-emphasis-color);
+}
+/*  el borde entre header y main cuando la pequeña sea menos que small */
+@media (min-width: 768px) {
+    #padding{
+        display: none;
     }
 }
 
-.container{
-    background: aquamarine;
+/* el hr que no es un hr realemente */
+.pad{
+    padding: 1px 0;
 }
-.container-md{
-    background:rebeccapurple ;
+/* font-size de 0.8rem */
+.fs-xsmall{
+    font-size: 0.8rem !important;
 }
-.container-sm{
-    background: yellow;
+
+.carousel-indicators [data-bs-target]{
+    border-radius: 100% !important;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #373A3C !important;
+    position: relative !important;
+} 
+#grosor{
+    text-underline-offset: 1rem;
 }
-.container-lg{
-    background: violet;
-}
-.container-xl{
-    background: teal;
-}
-.container-fluid{
-    background: salmon;
-}
+  
