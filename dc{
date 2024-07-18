@@ -1,0 +1,46 @@
+[1mdiff --git a/13 bootstrapjs ricomida/assets/css/style3.css b/13 bootstrapjs ricomida/assets/css/style3.css[m
+[1mindex f11b574..b1fd5ba 100644[m
+[1m--- a/13 bootstrapjs ricomida/assets/css/style3.css[m	
+[1m+++ b/13 bootstrapjs ricomida/assets/css/style3.css[m	
+[36m@@ -50,4 +50,7 @@[m
+ aside{[m
+     height: 30rem;[m
+     [m
+[32m+[m[32m}[m
+[32m+[m[32mheader{[m
+[32m+[m[32m    background-image: url();[m
+ }[m
+\ No newline at end of file[m
+[1mdiff --git a/15 prueba  viajes chile/index.html b/15 prueba  viajes chile/index.html[m
+[1mindex f79cb3f..665d269 100644[m
+[1m--- a/15 prueba  viajes chile/index.html[m	
+[1m+++ b/15 prueba  viajes chile/index.html[m	
+[36m@@ -18,14 +18,14 @@[m
+ [m
+     <head><!-- poner la imagen de fondo aca -->[m
+         <div class="container"><!-- espaciado -->[m
+[31m-            <nav class="navbar navbar-expand-md bg-body-tertiary">[m
+[31m-                <div class="container-fluid">[m
+[32m+[m[32m            <nav class="navbar navbar-expand-md bg-body-tertiary"><!-- eliminar el bg body tertiary  y agregar en este caso fixed-top-->[m
+[32m+[m[32m                <div class="container-fluid"><!-- sepuede simplemente eliminar el fluis -->[m
+                     <a class="navbar-brand" href="#"> <img class="me-2" src="assets/img/viajes.svg" alt="svg"><!-- margen a la imagen -->Viajes Chile</a>[m
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"[m
+                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">[m
+                         <span class="navbar-toggler-icon"></span>[m
+                     </button>[m
+[31m-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav"><!-- alinear el contenido a al final -->[m
+[32m+[m[32m                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav"><!-- alinear el contenido a al final  ms-auto rellename con margin a la izquierda para que se vea a la derecha-->[m
+                         <ul class="navbar-nav">[m
+                             <li class="nav-item">[m
+                                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>[m
+[1mdiff --git a/notas.txt b/notas.txt[m
+[1mindex 82298ef..e5ea113 100644[m
+[1m--- a/notas.txt[m
+[1m+++ b/notas.txt[m
+[36m@@ -3,3 +3,5 @@[m [mnodeshool.io[m
+ [m
+ tarjeta fan[m
+ ingetic empresa de desarrollo de software de santiago[m
+[32m+[m
+[32m+[m[32mel merge lo hago desde a donde quiero traer los cambios, es decir a main quiero traer lo del otra rama[m
+\ No newline at end of file[m
