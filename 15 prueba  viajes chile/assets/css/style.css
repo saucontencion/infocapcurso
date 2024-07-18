@@ -1,0 +1,16 @@
+.bgp{
+    background: green;
+
+    height: 30rem;
+}
+.bgpi{
+    background: rebeccapurple;
+    width: 10rem;
+}
+aside{
+    height: 30rem;
+    
+}
+nav div img{
+    width: 3rem;
+}
