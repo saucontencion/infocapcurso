@@ -7,3 +7,9 @@ ingetic empresa de desarrollo de software de santiago
 el merge lo hago desde a donde quiero traer los cambios, es decir a main quiero traer lo del otra rama
 
 cuando  se me quede pegado el bash usar :q  dos puntos q
+<-- ctrl + tab para cambiar a la derecha y ctrl + shift + tab a la izquierda
+
+## tareas
+### hacer el mapa con las clases de bootstrap y diferentes formas de centrar
+#### diferenciar entre cuales se usan con row, con container o sin nada
+### con que se usa el text-center

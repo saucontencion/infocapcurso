@@ -54,3 +54,7 @@ aside{
 header{
     background-image: url();
 }
+.paraimg{
+    object-fit: cover;
+    object-fit: ;
+}
