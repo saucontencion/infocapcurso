@@ -1,0 +1,74 @@
+1. Clases Principales y Estructura de la Página
+Grid System
+container, container-fluid: Define el contenedor principal de la página, controla el ancho y el padding.
+row: Define una fila dentro del contenedor, para organizar columnas.
+col-*, col-sm-*, col-md-*, col-lg-*, col-xl-*: Define el tamaño de las columnas dentro de una fila, responsivo según el tamaño de la pantalla.
+2. Componentes de Navegación
+Navbar
+.navbar, .navbar-expand-*: Define un navbar responsivo con opciones para expandirse según el tamaño de la pantalla.
+.navbar-brand: Logo o título en el navbar.
+.navbar-nav, .nav-item, .nav-link: Define la estructura de navegación con elementos de lista.
+.dropdown, .dropdown-toggle, .dropdown-menu: Permite crear menús desplegables dentro del navbar.
+3. Componentes de Contenido
+Carousel
+
+.carousel, .carousel-item: Contenedor principal y elementos individuales del carousel.
+.carousel-control-prev, .carousel-control-next: Flechas de control para navegar entre elementos del carousel.
+.carousel-indicators: Indicadores de navegación para el carousel.
+Cards
+
+.card: Contenedor principal para un elemento de tarjeta.
+.card-header, .card-body, .card-footer: Secciones dentro de una tarjeta para encabezado, cuerpo y pie.
+.card-title, .card-subtitle: Títulos y subtítulos dentro de una tarjeta.
+.card-img-top, .card-img-bottom: Imágenes en la parte superior o inferior de una tarjeta.
+.card-group, .card-deck: Agrupa tarjetas horizontal o verticalmente sin espacios.
+4. Estilos y Clases de Utilidad
+Colores y Estilos
+
+.bg-*: Define colores de fondo para elementos.
+.text-*: Define colores de texto.
+.font-weight-bold, .font-italic: Define estilos de fuente como negrita o cursiva.
+Espaciado
+
+.p-*: Define relleno (padding).
+.m-*: Define márgenes (margin).
+Bordes y Formas
+
+.rounded, .rounded-*: Define bordes redondeados.
+.rounded-circle: Define una forma circular.
+.rounded-pill: Define una forma de píldora.
+Visibilidad
+
+.d-*: Controla la visibilidad y el comportamiento de visualización en diferentes tamaños de pantalla (display).
+5. Modales y Otros Componentes
+Modals
+
+.modal, .modal-dialog, .modal-content: Estructura básica de un modal.
+.modal-header, .modal-body, .modal-footer: Encabezado, cuerpo y pie de página dentro del modal.
+.modal-title: Título del modal.
+.modal-dismiss, .modal-close: Cerrar el modal.
+Alertas
+
+.alert, .alert-*: Define alertas con diferentes estilos y colores.
+.alert-dismissible: Permite cerrar las alertas con un botón de cierre.
+6. Comportamiento y Interactividad
+Collapse
+
+.collapse, .collapsing, .collapse.show: Define un elemento colapsable.
+.collapse-toggle, .data-toggle: Elementos que activan el colapso.
+Scrollspy
+
+.scrollspy, .navbar-scroll: Monitorea la posición del usuario y activa elementos de la barra de navegación según la posición del desplazamiento.
+7. Integración con JavaScript
+jQuery y Popper.js
+Funcionalidades adicionales para elementos dinámicos como tooltips, popovers, etc.
+8. Ejemplos y Prácticas Recomendadas
+Uso en Práctica
+Ejemplos de cómo implementar y personalizar cada componente en una página web.
+Mejores prácticas para la accesibilidad y el rendimiento.
+9. Actualizaciones y Versiones
+Bootstrap 4 vs Bootstrap 5
+Diferencias clave entre versiones que afectan la sintaxis y el uso de las clases.
+10. Personalización y Extensibilidad
+Sass y Variables
+Uso de Sass y variables para personalizar el diseño y los colores de Bootstrap.
