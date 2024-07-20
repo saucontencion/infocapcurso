@@ -28,6 +28,20 @@ Colores y Estilos
 .bg-*: Define colores de fondo para elementos.
 .text-*: Define colores de texto.
 .font-weight-bold, .font-italic: Define estilos de fuente como negrita o cursiva.
+### Colores de fondo básicos:
+
+.bg-primary: Color de fondo primario (generalmente azul).
+.bg-secondary: Color de fondo secundario (generalmente gris).
+.bg-success: Color de fondo para indicar éxito (verde).
+.bg-danger: Color de fondo para indicar peligro o error (rojo).
+.bg-warning: Color de fondo para indicar advertencia (amarillo).
+.bg-info: Color de fondo para proporcionar información (azul claro).
+Colores adicionales:
+
+.bg-light: Color de fondo claro.
+.bg-dark: Color de fondo oscuro.
+.bg-white: Color de fondo blanco.
+.bg-transparent: Fondo transparente (sin color de fondo).
 Espaciado
 
 .p-*: Define relleno (padding).
