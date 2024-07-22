@@ -4,6 +4,9 @@ nodeshool.io
 tarjeta fan
 ingetic empresa de desarrollo de software de santiago
 
+## tarea de crear el mapa de bootstrap
+
+buscar como hacer el atajo de code desde para el cmd o el bash
 el merge lo hago desde a donde quiero traer los cambios, es decir a main quiero traer lo del otra rama
 
 cuando  se me quede pegado el bash usar :q  dos puntos q
