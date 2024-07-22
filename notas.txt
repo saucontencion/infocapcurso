@@ -4,10 +4,9 @@ nodeshool.io
 tarjeta fan
 ingetic empresa de desarrollo de software de santiago
 
-## tarea de crear el mapa de bootstrap
-
-buscar como hacer el atajo de code desde para el cmd o el bash
 el merge lo hago desde a donde quiero traer los cambios, es decir a main quiero traer lo del otra rama
+
+*** https://www.corfo.cl/sites/becascapitalhumano/home ***
 
 cuando  se me quede pegado el bash usar :q  dos puntos q
 <-- ctrl + tab para cambiar a la derecha y ctrl + shift + tab a la izquierda
@@ -16,3 +15,174 @@ cuando  se me quede pegado el bash usar :q  dos puntos q
 ### hacer el mapa con las clases de bootstrap y diferentes formas de centrar
 #### diferenciar entre cuales se usan con row, con container o sin nada
 ### con que se usa el text-center
+
+### 
+# Clases Comunes en Bootstrap
+
+## Grid System
+- **Container**: Contenedor principal para el diseño. Controla el ancho del diseño y alinea el contenido.
+  - `.container`: Ancho fijo para diferentes tamaños de pantalla.
+  - `.container-fluid`: Ancho completo, se extiende por toda la pantalla.
+
+- **Row**: Define filas dentro del contenedor.
+  - `.row`: Filas con márgenes negativos para alinear columnas.
+  - `.no-gutters`: Elimina los márgenes de las filas para alinear sin espacios.
+
+- **Column**: Define el comportamiento de las columnas dentro de una fila.
+  - `.col`: Columnas responsivas para diferentes tamaños de pantalla (por defecto es `col-md-`, puedes usar `col-sm-`, `col-lg-` según sea necesario).
+  - `.col-3`, `.col-6`, etc.: Define el número de columnas en una fila para diferentes tamaños de pantalla.
+
+## Tipografía y Texto
+- **Typography**: Estilos para texto y tipografía.
+  - `.text-center`, `.text-right`, etc.: Alineación del texto.
+  - `.text-muted`, `.text-primary`, etc.: Colores para el texto.
+  - `.font-weight-bold`, `.font-italic`: Estilos de fuente.
+
+## Botones
+- **Buttons**: Estilos y tamaños para botones.
+  - `.btn`: Estilo básico para botones.
+  - `.btn-primary`, `.btn-secondary`, etc.: Estilos de botones según el contexto.
+  - `.btn-lg`, `.btn-sm`: Tamaños grandes y pequeños para botones.
+
+## Navegación
+- **Navbar**: Barra de navegación superior.
+  - `.navbar`: Contenedor principal de la barra de navegación.
+  - `.navbar-expand-lg`, `.navbar-expand-md`: Tamaño de la barra de navegación según la pantalla.
+  - `.navbar-dark`, `.navbar-light`: Temas oscuros o claros para la barra de navegación.
+
+## Componentes
+- **Cards**: Contenedores flexibles para contenido.
+  - `.card`: Contenedor básico para tarjetas.
+  - `.card-header`, `.card-body`, `.card-footer`: Partes de la tarjeta.
+  - `.card-img-top`, `.card-img-bottom`: Imágenes en la parte superior o inferior.
+
+## Utilidades
+- **Utilities**: Clases de utilidad para ajustar el diseño rápidamente.
+  - `.d-flex`, `.d-none`: Display utilities para mostrar o ocultar elementos.
+  - `.p-3`, `.m-4`: Padding y margin utilities para espaciado.
+
+# Clases Comunes en Bootstrap (continuación)
+
+## Alertas
+- **Alerts**: Mensajes de notificación para el usuario.
+  - `.alert`: Contenedor básico para alertas.
+  - `.alert-primary`, `.alert-success`, etc.: Estilos de alerta según el contexto.
+  - `.alert-dismissible`: Botón de cierre para alertas que permite cerrarlas.
+
+## Formularios
+- **Forms**: Estilos y diseños para formularios.
+  - `.form-control`: Estilo para campos de entrada de texto.
+  - `.form-check`: Estilo para checkboxes y radio buttons.
+  - `.form-group`: Agrupa etiquetas y controles dentro de un formulario.
+
+## Modal
+- **Modal**: Ventana emergente para mostrar contenido adicional.
+  - `.modal`: Contenedor principal para el modal.
+  - `.modal-dialog`: Cuadro de diálogo dentro del modal.
+  - `.modal-content`: Contenido específico dentro del modal.
+
+## Carousel
+- **Carousel**: Presentación de imágenes y contenido en carrusel.
+  - `.carousel`: Contenedor principal para el carrusel.
+  - `.carousel-item`: Elemento individual dentro del carrusel.
+  - `.carousel-control-prev`, `.carousel-control-next`: Controles de navegación para el carrusel.
+
+## Tabs
+- **Tabs**: Navegación entre diferentes secciones de contenido.
+  - `.nav-tabs`: Estilo de pestañas para la navegación.
+  - `.nav-link`: Estilo para los enlaces dentro de las pestañas.
+  - `.tab-pane`: Contenido específico de cada pestaña.
+
+## Dropdowns
+- **Dropdowns**: Menús desplegables para opciones adicionales.
+  - `.dropdown`: Contenedor principal para el menú desplegable.
+  - `.dropdown-toggle`: Botón o enlace que activa el menú desplegable.
+  - `.dropdown-menu`: Contenido del menú desplegable.
+
+## Badges
+- **Badges**: Etiquetas para mostrar información adicional.
+  - `.badge`: Estilo básico para los badges.
+  - `.badge-primary`, `.badge-secondary`, etc.: Estilos de badge según el contexto.
+
+## Borders
+- **Borders**: Estilos de borde para elementos.
+  - `.border`, `.border-top`, `.border-bottom`, etc.: Estilos de borde específicos.
+  - `.rounded`: Bordes redondeados para elementos.
+
+
+
+<-- para git log -->
+# Cómo leer `git log`
+
+## Elementos clave en `git log`
+
+- **Commit Hash**
+  - Identificador único de cada commit.
+  
+- **Author**
+  - Persona que realizó el commit.
+  
+- **Date**
+  - Fecha y hora en que se realizó el commit.
+  
+- **Commit Message**
+  - Mensaje descriptivo que acompaña al commit.
+  
+- **Branch Reference**
+  - Nombre de la rama en la que se realizó el commit (si aplica).
+  
+- **Merge Commits**
+  - Indicación de fusiones de ramas en el historial.
+
+## Opciones comunes en `git log`
+
+### Filtrado y Ordenamiento
+
+- **--author=<pattern>**
+  - Filtrar commits por autor.
+  
+- **--since, --until=<date>**
+  - Filtrar commits por fecha.
+  
+- **--grep=<pattern>**
+  - Filtrar commits por mensaje.
+  
+- **--first-parent**
+  - Mostrar solo commits del primer padre en merges.
+  
+- **--reverse**
+  - Mostrar commits en orden inverso.
+
+### Formato de salida
+
+- **--oneline**
+  - Mostrar cada commit en una línea.
+  
+- **--graph**
+  - Mostrar un gráfico ASCII de las ramas y fusiones.
+  
+- **--decorate**
+  - Mostrar nombres de ramas y tags junto a los commits.
+
+## Navegación y Visualización
+
+- **HEAD**
+  - Punto de referencia actual en la rama actual.
+  
+- **^, ~**
+  - Sintaxis para referirse a commits anteriores.
+  
+- **Ancestors and Descendants**
+  - Relación entre commits a través de sus padres y hijos.
+
+## Ejemplos de Uso
+
+- `git log`
+  - Muestra todos los commits en el historial.
+  
+- `git log --oneline --graph --decorate`
+  - Muestra el historial de commits de manera concisa y con información visual.
+  
+- `git log --author="John Doe" --since="2023-01-01"`
+  - Filtra los commits realizados por "John Doe" desde el 1 de enero de 2023.
+
